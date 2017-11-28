@@ -34,3 +34,6 @@ __init__.py imports required libraries and sets up the data in numpy arrays for 
 1. Not sure whether my implementation of the color histograms was the correct idea. 
 2. Understand backpropagation to discover why the model is getting worse as it trains.
 3. Eventually, do feature selection to make the model even better. 
+
+#### References:
+https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html
