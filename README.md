@@ -3,7 +3,15 @@
 
 ### Introduction
 
+In 2012, CNN's achieved state-of-the-art status when the AlexNet "large, deep convulutional neural network" won the 2012 ImageNet Large-Scale Visual Recognition Challenge. AlexNet, programmed by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton achieved a top 5 test error rate of 15.4%. The runner up achieved only 26.2%. These results stunned the community and quickly led to CNN's being adopted by the computer vision community. 
 
+CIFAR-10 is an image classification dataset comprising of 60,000 images, each of which is a 32x32 RBG image. Ten classifications exist. The relatively small scale and number of classifications make this dataset an ideal set for training a convulutional neural network to prove viability. 
+
+Convulutional neural networks are complex and require a deep understanding of calculus and programming. 
+
+The files and their description can be found on the cs.toronto.edu website, linked below. 
+
+https://www.cs.toronto.edu/~kriz/cifar.html
 
 ### Notebooks & Scripts
 
