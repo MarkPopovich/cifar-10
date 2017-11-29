@@ -3,7 +3,7 @@
 
 ### Introduction
 
-In 2012, CNN's achieved state-of-the-art status when the AlexNet "large, deep convulutional neural network" won the 2012 ImageNet Large-Scale Visual Recognition Challenge. AlexNet, programmed by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton achieved a top 5 test error rate of 15.4%. The runner up achieved only 26.2%. These results stunned the community and quickly led to CNN's being adopted by the computer vision community. 
+In 2012, CNN's achieved state-of-the-art status when the AlexNet "large, deep convulutional neural network" won the 2012 ImageNet Large-Scale Visual Recognition Challenge. AlexNet, programmed by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton achieved a top 5 test error rate of 15.4%. The runner up achieved only 26.2%. These results stunned the community and quickly led to CNN's being adopted by the computer vision community. (Deshpande, Adit)
 
 CIFAR-10 is an image classification dataset comprising of 60,000 images, each of which is a 32x32 RBG image. Ten classifications exist. The relatively small scale and number of classifications make this dataset an ideal set for training a convulutional neural network to prove viability. 
 
@@ -36,4 +36,4 @@ __init__.py imports required libraries and sets up the data in numpy arrays for 
 3. Eventually, do feature selection to make the model even better. 
 
 #### References:
-https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html
+Deshpande, Adit. “The 9 Deep Learning Papers You Need To Know About (Understanding CNNs Part 3).” The 9 Deep Learning Papers You Need To Know About (Understanding CNNs Part 3) – Adit Deshpande – CS Undergrad at UCLA ('19), 24 Aug. 2016, adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html.
