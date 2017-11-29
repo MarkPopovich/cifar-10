@@ -36,4 +36,4 @@ __init__.py imports required libraries and sets up the data in numpy arrays for 
 3. Eventually, do feature selection to make the model even better. 
 
 #### References:
-Deshpande, Adit. “The 9 Deep Learning Papers You Need To Know About (Understanding CNNs Part 3).” The 9 Deep Learning Papers You Need To Know About (Understanding CNNs Part 3) – Adit Deshpande – CS Undergrad at UCLA ('19), 24 Aug. 2016, adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html.
+Deshpande, Adit. “The 9 Deep Learning Papers You Need To Know About (Understanding CNNs Part 3).” CS Undergrad at UCLA ('19), 24 Aug. 2016, adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html.
