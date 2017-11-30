@@ -44,6 +44,14 @@ def transform_cifar_images(images):
         transformed.append(transformed_image)
          
     return np.array(transformed)
+
+def print_summary(model):
+    for l in model.layers:
+        print (l.name, l.input_shape,'==>',l.output_shape)
+    print (model.summary())
+    
+    return None
+
 X_train = X_train.astype('float32')
 X_train /= 255
 X_test = X_test.astype('float32')
@@ -51,6 +59,9 @@ X_test /= 255
 
 X_train = transform_cifar_images(X_train)
 X_test = transform_cifar_images(X_test)
+
+y_train = keras.utils.to_categorical(y_train, 10)
+y_test = keras.utils.to_categorical(y_test, 10)
 
 print("X_train: {}, y_train: {}".format(X_train.shape, y_train.shape))
 print("X_test: {}, y_test: {}".format(X_test.shape, y_test.shape))

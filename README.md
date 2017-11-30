@@ -27,13 +27,26 @@ https://www.cs.toronto.edu/~kriz/cifar.html
  - Follow along with example provided in keras git repo
  - Achieve baseline performance
  - Ensure proper formating for array's (update __init__.py with changes and removed from notebook). 
+02. Feed Forward Neural Networks
+ - Step backwards to the basics of multi-layer perceptions
+ - Build a few fully connected models using only Dense and Activation layers
+ - Test performance
+03. Recreate Historically viable CNN's
+
 
 __init__.py imports required libraries and sets up the data in numpy arrays for training in CNN's. 
 
 ### Questions / To Do
 1. Not sure whether my implementation of the color histograms was the correct idea. 
 2. Understand backpropagation to discover why the model is getting worse as it trains.
-3. Eventually, do feature selection to make the model even better. 
+3. Eventually, do feature selection to make the model even better.
+
+At this point, I'll have more to go on after the next two days of lectures.
+
+Get weird and try a whole bunch of different architectures. 
+Try transfer learning from lecture resources.
+My turn to just start experimenting with the deep learning networks. 
+
 
 #### References:
 Deshpande, Adit. “The 9 Deep Learning Papers You Need To Know About (Understanding CNNs Part 3).” CS Undergrad at UCLA ('19), 24 Aug. 2016, https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html.
