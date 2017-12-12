@@ -32,20 +32,28 @@ https://www.cs.toronto.edu/~kriz/cifar.html
  - Build a few fully connected models using only Dense and Activation layers
  - Test performance
 03. Recreate Historically viable CNN's
+ - Investigate Architecture of LeNet (1998) and AlexNet(2012)
+ - Seek to train similiarly structured networks on CIFAR-10
+ - Iteratively train better models
+04. Experimenting with Optimizers and Hyperparameters
+ - Train on structure from notebook 01
+ - Iteratively change variables inc: Learning Rate, Decay, Optimizers (SGD, ADAM), Momentum/Nestorov Momentum
+ - Train iteratively by manipulating learning rate
+05. Data Augmentation
+ - Load model trained in previous notebook
+ - Build Datagen object from ImageDataGenerator
+ - Train for many epoch's to increase test accuracy rate
+06. Visualizing Filters
 
 
 __init__.py imports required libraries and sets up the data in numpy arrays for training in CNN's. 
+__initremote__.py takes advantage of built-in keras load CIFAR-10 functionality for ease of use in remote computing sessions.
 
 ### Questions / To Do
-1. Not sure whether my implementation of the color histograms was the correct idea. 
-2. Understand backpropagation to discover why the model is getting worse as it trains.
-3. Eventually, do feature selection to make the model even better.
-
-At this point, I'll have more to go on after the next two days of lectures.
-
-Get weird and try a whole bunch of different architectures. 
-Try transfer learning from lecture resources.
-My turn to just start experimenting with the deep learning networks. 
+    3. Investigate layer weights for vanishing gradient 
+    5. Visualize the filters from different layers and discuss 
+    6. Write up theory on the different layers, deal with each layer's theory 
+    7. Investigate ResNet theory and institue transfer learning on its
 
 
 #### References:
