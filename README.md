@@ -43,7 +43,12 @@ https://www.cs.toronto.edu/~kriz/cifar.html
  - Load model trained in previous notebook
  - Build Datagen object from ImageDataGenerator
  - Train for many epoch's to increase test accuracy rate
-06. Visualizing Filters
+06. Transfer Learning
+ - Load ResNet50 pretrained model from Keras without final predict layer
+ - Predict from images
+ - Connect predictions to fully connected network
+ - Output final predicts from Dense 10 layer
+07. Visualizing Filters
 
 
 __init__.py imports required libraries and sets up the data in numpy arrays for training in CNN's. 
@@ -53,7 +58,6 @@ __initremote__.py takes advantage of built-in keras load CIFAR-10 functionality 
     3. Investigate layer weights for vanishing gradient 
     5. Visualize the filters from different layers and discuss 
     6. Write up theory on the different layers, deal with each layer's theory 
-    7. Investigate ResNet theory and institue transfer learning on its
 
 
 #### References:
